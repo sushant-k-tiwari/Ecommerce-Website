@@ -1,0 +1,406 @@
+.head-h1 {
+    font-size: 22px;
+}
+
+.address-card {
+    border: 1px solid #adadad;
+}
+
+.address-card .addressCard-head {
+    background-color: #EFEFEF;
+    padding: 0.5rem;
+}
+
+.address-card .addressCard-head h3 {
+    font-size: 16px;
+}
+
+.address-card .addressCard-body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.address-card .addressCard-body .form-control::placeholder {
+    color: #999999;
+}
+
+.address-card .addressCard-body .form-control {
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.lastform-sec {
+    display: flex;
+}
+
+.lastform-sec a {
+    margin-left: auto;
+}
+
+/* For Logged In User */
+.heading {
+    display: flex;
+}
+
+.heading h1 {
+    font-size: 22px;
+}
+
+.heading a {
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.userAddress-card {
+    border: 1px solid #FE9E2D;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.userAddress-card.active {
+    background-color: #FFF4E3;
+}
+
+.userAddress-card .card-head i {
+    font-size: 5rem;
+    color: #FE9E2D;
+    opacity: 0.5;
+}
+
+.userAddress-card .card-body h6 {
+    font-weight: bold;
+}
+
+.userAddress-card .card-body p {
+    color: #464646;
+    font-weight: 300;
+}
+
+.userAddress-card .card-footer i {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+ body {
+    font-family: 'Poppins', sans-serif;
+    color: #464646;
+ }
+
+/* #progessbarRow {
+    background-image: url('/assets/img/dots.png');
+    background-position: center;
+} */
+
+#progressbarrr {
+    list-style: none;
+    display: flex;
+    margin-top: 7.5rem;
+   margin-bottom: -2.4rem;
+}
+
+#progressbarrr .active {
+    font-weight: bold;
+    color: #FE9E2D;
+}
+
+#progressbar {
+    list-style: none;
+    display: flex;
+    margin-top: 2.3rem;
+  
+}
+
+/* Coupon Card */
+.coupon-card .card-body p {
+    font-size: 12px;
+}
+/* Coupon Card End */
+/* Cart Type */
+.cart-card {
+    background-color: #FFF4E3;
+    padding: 2rem;
+}
+
+.cartCard .cart-type {
+    display: flex;
+}
+
+.cartCard .cart-type span {
+    margin-left: 2rem;
+}
+
+.cart-list {
+    list-style: none;
+    background-color: #FFFFFF;
+}
+
+.cart-item {
+    padding: 1rem;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.cart-item .det {
+    padding-left: 1rem;
+}
+
+.cart-item .det .form-group span {
+    color: red;
+}
+
+.cart-item .price-sec {
+    display: flex;
+}
+.cart-item .price-sec del {
+    color: #ADADAD;
+    font-size: 22px;
+}
+
+.cart-item .price-sec .sp {
+    color: #009444;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+
+.cart-item .price-sec .youSave {
+    margin-left: 1rem;
+    background-color: #FE9E2D;
+    color: #FFFFFF;
+    transform: skew(-20deg);
+    padding: 0.2rem;
+}
+
+.cart-card .actions i {
+    font-size: 26px;
+    font-weight: 200;
+    margin-left: 0.4rem;
+    color: #464646;
+}
+/* Cart Type End */
+
+/* Cart Overview */
+
+.overview-card {
+    border: 1px solid #FE9E2D;
+}
+
+.overview-card .overview-card-head {
+    padding: 1rem;
+    background-color: #FFF1DB;
+}
+.overview-card .overview-card-body {
+    padding: 1rem;
+}
+
+.overview-card .overview-card-body ul {
+    list-style: none;
+}
+
+.overview-card .overview-card-body span > strong {
+    color: #FE9E2D;
+}
+
+.overview-card .overview-card-footer {
+    padding: 1rem;
+}
+
+/* .price-breakup {
+
+} */
+
+.price-breakup .price-type {
+    display: flex;
+}
+
+.price-breakup .price-type p {
+    margin-right: auto;
+}
+
+.price-breakup .price-type .mrp {
+    color: #009444;
+}
+
+.price-breakup .price-type span {
+    margin-left: auto;
+    font-weight: 400;
+}
+
+.overview-card-footer .total-sec {
+    display: flex;
+}
+
+.overview-card-footer .total-sec {
+    color: #464646;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.overview-card-footer .total-sec span {
+    margin-left: auto;
+}
+
+.overview-card-footer .extras {
+    display: flex;
+}
+
+.overview-card-footer .extras a {
+    margin-left: auto;
+}
+/* Cart Overview End */
+
+ @media(max-width: 720px) {
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .cart .coupon-sec .coupon-card {
+        display: block;
+        padding: 1rem;
+    }
+
+    .cart .coupon-sec .coupon-card .card-head i {
+        font-size: 12px;
+    }
+
+    .cart .coupon-sec .coupon-card .det .code {
+        font-size: 14px;
+    }
+
+    .cart .coupon-card .card-body .offer a {
+        font-size: 12px;
+    }
+
+    .cartCard h3 {
+        font-size: 16px;
+    }
+
+    .cartCard  span {
+        font-size: 13px;
+    }
+
+    .cart-card .cart-list .cart-item img {
+        width: 50px;
+        height: auto;
+    }
+
+    .cart-item .price-sec del {
+        font-size: 16px;
+    }
+
+    .cart-item .price-sec .sp {
+        font-size: 16px;
+    }
+
+    .cart-item .price-sec .youSave {
+        display: none;
+    }
+
+    .price-breakup .price-type {
+        font-size: 14px;
+    }
+ }
+
+
+
+/* For Logged In User end */
+
+.buttonAddress .btn-2 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #009444;
+    margin-top: .5rem;
+    border-radius: 5px;
+    
+}
+
+.buttonAddress .btn-2:hover {
+    color: white;
+}
+
+
+
+.buttonAddress {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: end;
+    /* margin-left: 7.1rem; */
+}
+
+.extras .btn {
+    background-color: #FE9E2D;
+    color: #ffffff;
+    padding: 0.6rem;
+}
+
+.bagLink li {
+    color:#464646
+}
+
+@media (max-width: 720px) {
+    .buttonAddress {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+    }
+
+    .buttonAddress .btn-2 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+
+
+#cover-spin {
+    position:fixed;
+    width:100%;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-color: rgba(255,255,255,0.7);
+    z-index:9999;
+  }
+  
+  @-webkit-keyframes spin {
+  from {-webkit-transform:rotate(0deg);}
+  to {-webkit-transform:rotate(360deg);}
+  }
+  
+  @keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+  }
+  
+  #cover-spin::after {
+    content:'';
+    display:block;
+    position:absolute;
+    left:48%;
+    top:40%;
+    width:40px;
+    height:40px;
+    border-style:solid;
+    border-color:#fe9e2d !important;
+    border-top-color:transparent !important;
+    border-width: 4px;
+    border-radius:50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+  }

@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+ body {
+    font-family: 'Poppins', sans-serif;
+    color: #A2A2A2;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+ }
+
+
+ .product-car .big-img img {
+    width: 100%;
+    height: auto;
+}
+
+.productIconDiv {
+    margin-left: 150px;
+}
+    
+    
+.product-car .small-img img {
+    width: 90px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.breadcrumb-item a {
+    color: #A2A2A2;
+}
+
+.breadcrumb-item.active a {
+    color: #464646;
+}
+
+.heading {
+    padding-left: 0;
+}
+
+.heading h1 {
+    color: #464646;
+}
+
+
+
+
+
+.quantity span {
+    color: #A2A2A2;
+    font-weight: normal;
+}
+
+.ratings {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bi-star-fill {
+    font-size: 24px;
+    color: #FFE200;
+}
+
+.bi-star {
+    font-size: 24px;
+    color: #FFE200;
+}
+
+.ratings span {
+    font-size: 22px;
+    font-weight: 300;
+    color: #464646;
+}
+
+.location {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.location a {
+    color: #0071BA;
+    font-weight: 300;
+}
+.location a i {
+    font-weight: 100;
+    color: #000000;
+}
+
+.basic-details span {
+    color: #464646;
+    font-weight: 300;
+}
+
+.basic-details .sold-by {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #0071BA;
+    font-weight: 300;
+}
+
+.basic-details del {
+    color: #464646;
+    font-weight: 300;
+}
+
+.basic-details .sp {
+    color: #FE9E2D;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.basic-details .youSave {
+    color: #464646;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.basic-details .youSave strong {
+    color: #B53800;
+    font-size: 22px;
+}
+
+.basic-details .priceinc {
+    color: #121212;
+}
+
+.cart {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #464646;
+    font-weight: 300;
+}
+
+.mod-cart button {
+    border: 1px solid #464646;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 22px #ADADAD;
+}
+
+.mod-cart .bi {
+    color: #464646;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-quant {
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.addCart {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btn_1 {
+    background-color: #FE9E2D;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.8rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 6px;
+}
+
+.wishlist-sec i {
+    color: #464646;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wishlist-sec a {
+    text-decoration: none;
+    color: #B53800;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* .coupon-card {
+    display: flex;
+    background-color: #FFF4E3;
+    border: 1px dotted #F1A248;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.coupon-card .card-head .tag i {
+    color: #B53800;
+    font-size: 40px;
+}
+
+.coupon-card .card-head .det .use {
+    color: #464646;
+    font-size: 16px;
+}
+
+.coupon-card .card-head .det .code {
+    color: #B53800;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.coupon-card .vl {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-left: 2px dotted #707070;
+    height: auto;
+} */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body .offer {
+    background-color: #FFFFFF;
+    border: 1px solid #B53800;
+    padding: 0.6rem;
+    color: #464646;
+}
+
+
+.card-body .terms p {
+    color: #464646;
+    font-size: 20px;
+}
+
+.desc-sec {
+    color: #464646;
+    font-weight: 400;
+}
+
+.desc-sec .nav-item .nav-link {
+    color: #464646;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.desc-sec .nav-item .nav-link.active {
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 4px solid #FE9E2D;
+}
+
+.desc-sec .combo-product ul {
+    list-style: none;
+}
+.desc-sec .combo-product li::before {
+    list-style: square;
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #FE9E2D; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/* Review Card */
+
+
+.review-card .img-sec img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.review-card .img-sec span {
+    margin-top: -3rem;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.review-card .card-body {
+    margin-left: 5rem
+}
+
+.review-card .card-body h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.review-card .card-body p {
+    font-weight: 12px;
+    font-weight: 300;
+}
+.review-card .card-body .ratings .rat {
+    color: #FFE200;
+}
+
+.review-card .card-body .rev-img-sec img {
+    width: 120px;
+    height: 120px;
+}
+
+.review-card .card-body .likes {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.cart .addCart {
+    width: 30%;
+}
+
+
+/* Review Card End */
+
+@media(max-width: 720px) {
+    .product-car .small-img img {
+        width: 50px;
+        height: auto;
+    }
+
+    .col-md-6  {
+       min-width: 360px;
+       margin: auto;
+        /* margin: auto; */
+    }
+
+    .col-md-6  img {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .thumbs-wrapper li {
+        width: 50px;
+    }
+
+    .cart {
+        /* display: flex;
+        flex-direction: column; */
+        text-align: center;
+        margin: auto;
+        /* align-items: center; */
+    }
+
+    .row .desc-sec .nav .nav-item button {
+        font-size: 10px;
+    }
+
+    .cart .addCart {
+        width: 100%;
+    }
+
+    .addCart {
+        width: 100%;
+    }
+
+    .productIconDiv {
+        margin-left: 200px;
+    }
+
+   
+}

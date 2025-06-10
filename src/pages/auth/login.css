@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #464646;
+}
+
+#loginBg {
+    background-color: #fff1db;
+}
+
+.loginCard {
+    background-color: #FFF1DB;
+    border: 1px solid #FE9E2D;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.loginCard .loginCard-head .off-det h1 {
+    color: #464646;
+    font-weight: bold;
+}
+
+.loginCard .loginCard-head .off-det span {
+    color: #B53800;
+    font-weight: bold;
+}
+
+.loginCard-head .img-sec img {
+    width: 200px;
+}
+
+.loginCard .loginCard-head .off-coup {
+    margin-top: 1rem;
+}
+
+.loginCard .loginCard-head .off-coup .coup-ex {
+    padding: 0.5rem;
+    border: 3px dotted #FE9E2D;
+}
+
+.loginCard-body {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+}
+
+.loginCard-body .input-group-text {
+    background-color: #FFFFFF;
+    border: 1px solid #ADADAD;
+}
+
+.loginCard-body .form-control {
+    padding: 0.6rem;
+}
+
+.loginCard-body .form-control::placeholder {
+    color: #A7A7A7;
+}
+
+.social-login a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0px 6px 20px #707070;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.social-login .social-link img {
+    width: 50px;
+    height: 50px;
+}
+
+.loginCard-footer a {
+    text-decoration: underline;
+    color: #464646;
+}
+
+.loginCard-footer p {
+    color: #A2A2A2;
+}
+
+#signInDiv .S9gUrf-YoZ4jf {
+    margin-left: 4.2rem;
+    margin-top: 1.5rem;
+}
+
+
+@media(max-width: 720px) {
+    .loginCard .loginCard-head .off-det h1 {
+        font-size: 16px;
+    }
+
+    .loginCard .loginCard-head .off-det span {
+        font-size: 12px;
+    }
+
+    .loginCard .loginCard-head .img-sec img {
+        width: 100px;
+    }
+
+    .social-login a {
+        text-decoration: none;
+        /* font-size: 1rem; */
+        padding: 0.5rem;
+        border-radius: 50%;
+        box-shadow: 0px 6px 20px #707070;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .social-login img {
+        width: 60px;
+        height: 60px;
+        margin-left: -20px;
+    }
+
+    .social-login .d-flex .col-4 {
+        width: 33.333%;
+    }
+
+    #signInDiv .S9gUrf-YoZ4jf {
+        margin-left: 1.2rem;
+        margin-top: -1.5rem;
+    }
+
+}
+
+.btn {
+    background-color: #FE9E2D;
+    color: #ffffff;
+    padding: 0.6rem;
+}

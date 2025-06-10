@@ -1,0 +1,70 @@
+
+
+.MainAppDownloadDiv {
+    position: relative;
+    padding: 3rem 0 0 0;
+    margin: 1rem 0 0 0;
+}
+
+.sectionDiv {
+    background-image: linear-gradient(#FFF9F5, #FFE5D3);
+}
+
+.addingPadding {
+    padding: 2rem 0 0 0;
+}
+
+
+
+
+.downloadAppHeading {
+    font-size: 3.2rem;
+}
+
+.signUpText {
+    font-size: 1.8rem;
+    margin: 1.5rem;
+}
+
+
+.codeText {
+    background-color: #464646;
+    color: #fff;
+}
+
+
+.QR {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.QR p {
+    margin-left: 3rem;
+}
+
+
+.mobileAppImg {
+    position: absolute;
+     top: 0;
+     right: 100px;
+}
+
+.downloadAppHeading span {
+    font-size: 50px;
+}
+
+
+@media (max-width: 720px) {
+    .MainAppDownloadDiv {
+        padding-top: 0;
+    }
+
+    .downloadAppHeading span {
+        font-size: 35px;
+    }
+}
+

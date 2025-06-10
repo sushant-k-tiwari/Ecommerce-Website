@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #464646;
+}
+
+/* #progessbarRow {
+    background-image: url('/assets/img/dots.png');
+    background-position: center;
+} */
+
+#progressbar {
+    list-style: none;
+    display: flex;
+}
+
+#progressbar .active {
+    font-weight: bold;
+    color: #FE9E2D;
+}
+
+/* Coupon Card */
+.coupon-card .card-body p {
+    font-size: 12px;
+}
+
+/* Coupon Card End */
+/* Cart Type */
+.cartCard .cart-card {
+    background-color: #FFF4E3;
+    padding: 2rem 0 2rem 0;
+    box-shadow: 1px 1px 10px #DDDDDD;
+    margin-bottom: 1.5rem;
+}
+
+.cartCard .cart-type {
+    display: flex;
+}
+
+.cartCard .cart-type span {
+    margin-left: 2rem;
+}
+
+.cart-list {
+    list-style: none;
+    background-color: #FFFFFF;
+    padding-left: 0;
+}
+
+.cart-item {
+    padding: 1rem;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.cart-item .det {
+    padding-left: 1rem;
+}
+
+.cart-item .det .form-group span {
+    color: red;
+}
+
+.cart-item .price-sec {
+    display: flex;
+    margin-top: .5rem;
+    align-items: center;
+
+}
+
+.cart-item .price-sec del {
+    color: #ADADAD;
+    font-size: 22px;
+}
+
+.cart-item .price-sec .sp {
+    color: #009444;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+
+.cart-item .price-sec .youSave {
+    margin-left: 1rem;
+    background-color: #FE9E2D;
+    color: #FFFFFF;
+    transform: skew(-20deg);
+    padding: 0.2rem;
+}
+
+.cart-card .actions i {
+    font-size: 26px;
+    font-weight: 200;
+    margin-left: 0.4rem;
+    color: #464646;
+}
+
+/* Cart Type End */
+
+/* Cart Overview */
+
+.overview-card {
+    border: 1px solid #FE9E2D;
+}
+
+.overview-card .overview-card-head {
+    padding: 1rem;
+    background-color: #FFF1DB;
+}
+
+.overview-card .overview-card-body {
+    padding: 1rem;
+}
+
+.overview-card .overview-card-body ul {
+    list-style: none;
+}
+
+.overview-card .overview-card-body span>strong {
+    color: #FE9E2D;
+}
+
+.overview-card .overview-card-footer {
+    padding: 1rem;
+}
+
+/* .price-breakup {
+
+} */
+
+.price-breakup .price-type {
+    display: flex;
+}
+
+.price-breakup .price-type p {
+    margin-right: auto;
+}
+
+.price-breakup .price-type .mrp {
+    color: #009444;
+}
+
+.price-breakup .price-type span {
+    margin-left: auto;
+    font-weight: 400;
+}
+
+.overview-card-footer .total-sec {
+    display: flex;
+}
+
+.overview-card-footer .total-sec {
+    color: #464646;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.overview-card-footer .total-sec span {
+    margin-left: auto;
+}
+
+.overview-card-footer .extras {
+    display: flex;
+}
+
+.overview-card-footer .extras a {
+    margin-left: auto;
+}
+
+/* Cart Overview End */
+
+@media(max-width: 720px) {
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .container .row .col-md-4 {
+        width: 100%;
+    }
+
+    .cart .coupon-sec .coupon-card {
+        display: block;
+        padding: 1rem;
+    }
+
+    .cart .coupon-sec .coupon-card .card-head i {
+        font-size: 12px;
+    }
+
+    .cart .coupon-sec .coupon-card .det .code {
+        font-size: 14px;
+    }
+
+    .cart .coupon-card .card-body .offer a {
+        font-size: 12px;
+    }
+
+    .cartCard h3 {
+        font-size: 16px;
+    }
+
+    .cart-card .cart-list .cart-item img {
+        width: 50px;
+        height: auto;
+    }
+
+    .det .price-sec {
+        margin-top: .5rem;
+        align-items: center;
+
+    }
+
+    .cart-item .det .price-sec .dis {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+
+    }
+
+    .det .price-sec .mrp {
+        font-size: 12px;
+    }
+
+    .col-6 .det .price-sec .sp {
+        font-size: 12px;
+    }
+
+    .col-6 .det .price-sec span {
+        font-size: 9px;
+        margin: .2rem;
+
+    }
+
+    .cart-item .price-sec .youSave {
+        display: none;
+    }
+
+    .price-breakup .price-type {
+        font-size: 12px;
+    }
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #A2A2A2;
+}
+
+
+.product-car .big-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+.product-car .small-img img {
+    width: 90px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.breadcrumb-item a {
+    color: #A2A2A2;
+}
+
+.breadcrumb-item.active a {
+    color: #464646;
+}
+
+.heading h1 {
+    color: #464646;
+}
+
+.quantity span {
+    color: #A2A2A2;
+    font-weight: normal;
+}
+
+.ratings {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bi-star-fill {
+    font-size: 24px;
+    color: #FFE200;
+}
+
+.bi-star {
+    font-size: 24px;
+    color: #FFE200;
+}
+
+.ratings span {
+    font-size: 22px;
+    font-weight: 300;
+    color: #464646;
+}
+
+.location {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.location a {
+    color: #0071BA;
+    font-weight: 300;
+}
+
+.location a i {
+    font-weight: 100;
+    color: #000000;
+}
+
+.basic-details span {
+    color: #464646;
+    font-weight: 300;
+}
+
+.basic-details .sold-by {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #0071BA;
+    font-weight: 300;
+}
+
+.basic-details del {
+    color: #464646;
+    font-weight: 300;
+}
+
+.basic-details .sp {
+    color: #FE9E2D;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.basic-details .youSave {
+    color: #464646;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.basic-details .youSave strong {
+    color: #B53800;
+    font-size: 22px;
+}
+
+.basic-details .priceinc {
+    color: #121212;
+}
+
+.cart {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #464646;
+    font-weight: 300;
+}
+
+.mod-cart button {
+    border: 1px solid #464646;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 22px #ADADAD;
+}
+
+.mod-cart .bi {
+    color: #464646;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-quant {
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.addCart {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btn_1 {
+    background-color: #FE9E2D;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.8rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 6px;
+}
+
+.wishlist-sec i {
+    color: #464646;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wishlist-sec a {
+    text-decoration: none;
+    color: #B53800;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.coupon-card {
+    display: flex;
+    background-color: #FFF4E3;
+    border: 1px dotted #F1A248;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.coupon-card .card-head .tag i {
+    color: #B53800;
+    font-size: 40px;
+}
+
+.coupon-card .card-head .det .use {
+    color: #464646;
+    font-size: 16px;
+}
+
+.coupon-card .card-head .det .code {
+    color: #B53800;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.coupon-card .vl {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-left: 2px dotted #707070;
+    height: auto;
+}
+
+.card-body .offer {
+    background-color: #FFFFFF;
+    border: 1px solid #B53800;
+    padding: 0.6rem;
+    color: #464646;
+}
+
+
+.card-body .terms p {
+    color: #464646;
+    font-size: 20px;
+}
+
+.desc-sec {
+    color: #464646;
+    font-weight: 400;
+}
+
+.desc-sec .nav-item .nav-link {
+    color: #464646;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.desc-sec .nav-item .nav-link.active {
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 4px solid #FE9E2D;
+}
+
+.desc-sec .combo-product ul {
+    list-style: none;
+}
+
+.desc-sec .combo-product li::before {
+    list-style: square;
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #FE9E2D;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+/* Review Card */
+
+
+.review-card .img-sec img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.review-card .img-sec span {
+    margin-top: -3rem;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.review-card .card-body {
+    margin-left: 5rem
+}
+
+.review-card .card-body h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.review-card .card-body p {
+    font-weight: 12px;
+    font-weight: 300;
+}
+
+.review-card .card-body .ratings .rat {
+    color: #FFE200;
+}
+
+.review-card .card-body .rev-img-sec img {
+    width: 120px;
+    height: 120px;
+}
+
+.review-card .card-body .likes {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Review Card End */
+
+@media(max-width: 720px) {
+    .product-car .small-img img {
+        width: 50px;
+        height: auto;
+    }
+
+    .cart .container .row .col-md-4 {
+        width: 100%;
+    }
+}
+
+.head-h1 {
+    font-size: 22px;
+}
+
+.address-card {
+    border: 1px solid #adadad;
+}
+
+.address-card .addressCard-head {
+    background-color: #EFEFEF;
+    padding: 0.5rem;
+}
+
+.address-card .addressCard-head h3 {
+    font-size: 16px;
+}
+
+.address-card .addressCard-body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.address-card .addressCard-body .form-control::placeholder {
+    color: #999999;
+}
+
+.address-card .addressCard-body .form-control {
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.lastform-sec {
+    display: flex;
+}
+
+.lastform-sec a {
+    margin-left: auto;
+}
+
+/* For Logged In User */
+.heading {
+    display: flex;
+}
+
+.heading h1 {
+    font-size: 22px;
+}
+
+.heading a {
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.userAddress-card {
+    border: 1px solid #FE9E2D;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.userAddress-card.active {
+    background-color: #FFF4E3;
+}
+
+.userAddress-card .card-head i {
+    font-size: 5rem;
+    color: #FE9E2D;
+    opacity: 0.5;
+}
+
+.userAddress-card .card-body h6 {
+    font-weight: bold;
+}
+
+.userAddress-card .card-body p {
+    color: #464646;
+    font-weight: 300;
+}
+
+.userAddress-card .card-footer i {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+
+.det a {
+    text-decoration: none !important;
+    color: #000000 !important;
+
+}
+
+/* For Freebies Banner Section */
+.signalCart {
+    background-color: #fff4e3;
+    padding: 1rem;
+    border: 0.8rem;
+    display: flex;
+    border: 1px solid #FE9E2D;
+    border-radius: 10px;
+}
+
+.mobile .signalCart span {
+    font-weight: bold;
+    font-size: 13px;
+    color: #FE9E2D;
+}
+
+.btn_1 {
+    border: none;
+    background: #FE9E2D;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 25px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.875rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    line-height: normal;
+}
+
+.btn_1 i {
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+/* freebies Section */
+
+
+.cart-item a .freebieFreeImg {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    margin-left: 1.5rem;
+}
+
+.cart-item .det {
+    padding-left: 1rem;
+}
+
+.cart-item .price-sec {
+    display: flex;
+}
+
+.cart-item .price-sec .sp {
+    color: #009444;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+
+
+.cart-item .price-sec .dis {
+    margin: 1rem;
+    padding: 0.4rem;
+    color: #009444;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 0.3rem;
+    border-radius: 4px;
+}
+
+
+.editFreebie a {
+    color: #464646;
+    background-color: #EFEFEF;
+    padding: 0.5rem;
+}
+
+.cart-card .actions i {
+    font-size: 26px;
+    font-weight: 200;
+    margin-left: 0.4rem;
+    color: #464646
+}
+
+/* For Logged In User end */
+
+@media (max) {}

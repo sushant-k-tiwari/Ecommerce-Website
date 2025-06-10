@@ -1,0 +1,35 @@
+.logoBox {
+    border-radius: 4px;
+    margin-right: 135px;
+    width: 300px;
+    height: 175px;  
+    text-align: center;
+}
+
+
+
+.logoBox {
+    /* max-width: 500px;   */
+}
+
+.logoImgDiv {
+    text-align: center;
+    z-index: 2;
+}
+
+
+.logoImgDiv  {
+    padding: auto;
+    max-width: 150px;
+    max-width: 150px;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 720px) {
+    .logoBox {
+        width: 90px;
+        height: 90px;
+    }
+}

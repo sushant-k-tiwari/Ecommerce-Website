@@ -1,0 +1,17 @@
+.errorImg {
+    width: 40%;
+}
+
+.errorText {
+    font-size: 30px;
+}
+
+@media (max-width: 720px) {
+    .errorImg {
+        width: 100%;
+    }
+
+    .errorText {
+        font-size: 20px;
+    }
+}

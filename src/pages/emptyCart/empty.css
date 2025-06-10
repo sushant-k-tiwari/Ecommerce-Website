@@ -1,0 +1,53 @@
+.empty-bag img {
+    width: 130px;
+    height: auto;
+    margin-top: 1   rem;
+}
+
+.bag span {
+    color: #fe9e2d;
+    margin-right: 1rem;
+}
+
+/* .first  {
+    margin-top: 4rem;
+} */
+.second{
+    font-size: small;
+    margin-top: 1rem;
+    color: #A2A2A2;
+    
+}
+.p{
+    text-align:center;
+}
+
+.btn{
+   color:white;
+   background-color: #FE9E2D;
+}
+.horizontal{
+    color: #A2A2A2;
+    display: inline-block;
+    width: 100px;
+    margin-left: 2rem;
+    margin-right:2rem;
+   
+}
+.col-4 h6{
+    
+    align-items: center;
+    display: inline-flex; 
+}
+.navigator{
+    margin-bottom: 10%;
+    
+    
+}
+@media screen and (max-width:786px ) {
+    .logo{
+        width: 0;
+    }
+    
+} 
+    

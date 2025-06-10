@@ -1,0 +1,21 @@
+.main_title {
+    position: relative;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+a.box_topic {
+    text-align: center;
+    background-color: #FFF;
+    padding: 40px 30px 15px 30px;
+    border-radius: 3px;
+    color: #444;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+@media (max-width: 720px) {
+    .row .col-50 {
+        width: 50%;
+    }
+}

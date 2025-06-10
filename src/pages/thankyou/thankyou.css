@@ -1,0 +1,15 @@
+.shadow{
+    margin:80px
+}
+.btn-primary{
+    background-color: #fe9e2d !important;
+    border: none;
+    color: white !important;
+  }
+
+  @media (max-width:720px){
+    .shadow{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }

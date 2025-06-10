@@ -1,0 +1,23 @@
+
+#progressbarr{
+    list-style: none;
+    display: flex;
+    margin-bottom: -2rem;
+}
+
+#progressbarr .active {
+    font-weight: bold;
+    color: #FE9E2D;
+}
+
+
+@media(max-width: 720px) { 
+    .row .card .row .col-md-4 {
+        width: 50%;
+    }
+    .container .row .col-md-4 {
+        width: 100%;
+    }
+
+    
+}

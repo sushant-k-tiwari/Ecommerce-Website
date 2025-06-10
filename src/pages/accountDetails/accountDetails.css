@@ -1,0 +1,368 @@
+.breadcrumb-item {
+    text-decoration: none;
+}
+
+.user {
+    color: #434343;
+}
+
+.user:hover {
+    color: #434343;
+}
+
+.account {
+
+    align-items: center;
+}
+
+.bii {
+    margin-left: auto;
+}
+
+
+
+.card {
+    padding: 2rem;
+    border: 1px solid white;
+
+}
+
+.col-4 {
+    padding-bottom: 50px;
+}
+
+.wallet {
+    align-items: center;
+    justify-content: center;
+}
+
+.cardbox {
+    padding: 2rem;
+
+}
+
+.divs {
+    margin: auto;
+
+}
+
+.check {
+    color: #fe9e2d;
+    font-weight: bold;
+}
+
+.red {
+    color: #B53800;
+
+
+}
+
+.reds {
+    margin-left: auto;
+}
+
+.notes {
+    font-size: 12px;
+}
+
+.note {
+    padding-left: 2rem;
+    padding-top: 2rem;
+
+}
+
+.box {
+    background-color: #FFF4E3;
+}
+
+.seccard {
+
+    padding: 2rem;
+    background-color: white;
+
+}
+
+.btn-lg {
+    background-color: #fe9e2d;
+    color: #ffff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.feedback {
+    color: #fe9e2d;
+
+}
+
+.button {
+    align-items: center;
+}
+
+/* .container{
+    margin-left:  20px;
+} */
+
+.first {
+    flex: auto;
+
+}
+
+.second {
+    margin-top: 1rem;
+    color: #434343;
+}
+
+.green {
+    color: #009444;
+    margin-right: 0.5rem;
+    text-align: center;
+}
+
+.section {
+    background-color: #efefee;
+
+}
+
+.hr {
+    color: black;
+}
+
+.changePassword {
+    display: flex;
+
+    align-items: center;
+    font-size: 1.5rem;
+    color: #434343;
+}
+
+.edit {
+    margin-left: 5rem;
+
+
+}
+
+.account a.active {
+    color: #fe9e2d;
+}
+
+.edits {
+    margin-left: 8rem;
+    align-items: center;
+}
+
+.card-address {
+    background-color: white;
+    padding: 1rem;
+}
+
+.move-to-cart {
+    background-color: #fe9e2d;
+    border: none;
+    pointer-events: none;
+}
+
+.card-wishlist {
+    background-color: #ffff;
+}
+
+.rupee {
+    margin-right: 20px;
+}
+
+.accountAddress {
+    margin-bottom: 1rem;
+
+
+}
+
+.rupee {
+    margin-right: 10px;
+    display: flex;
+}
+
+
+#order-card {
+    margin-bottom: 20px;
+
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+.card .verified {
+    width: 25px !important;
+    height: 25px !important;
+    margin: 0 !important;
+}
+
+.section .order {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.card .piggy {
+    width: 150px !important;
+    height: auto !important;
+}
+
+
+.order-button {
+    border: 1px solid #fe9e2d;
+
+    right: 50px;
+}
+
+.order {
+    border: 1px solid black;
+}
+
+.button .col-sm-12 {
+    
+    text-align: end;
+}
+
+
+
+@media(max-width: 720px) {
+
+    /*for mobiles (ACCOUNT)*/
+    * {
+        font-size: small;
+
+    }
+
+    .button .col-sm-12 {
+        margin-top: 20px;
+        width: 100% !important;
+        text-align: start;
+    }
+
+    .edits {
+        margin-left: 0rem;
+        align-items: center;
+    }
+
+    .edit {
+        margin-left: 0rem;
+
+
+    }
+
+    .changePassword {
+        font-size: medium;
+
+    }
+
+    .red {
+        font-size: medium;
+        margin-left: 45px;
+    }
+
+    .divs {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+/*for mobiles (wishlist)*/
+@media(max-width: 720px) {
+    .col-4 {
+        width: 50%;
+        padding-bottom: 30px;
+    }
+
+    
+}
+
+
+
+
+
+
+/*for mobiles (ADDRESS)*/
+@media(max-width: 720px) {
+    .pencils {
+        padding-left: 240px;
+    }
+
+    #address-bar {
+        width: 50%
+    }
+
+    #addresscard {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #add-address {
+        width: 50%;
+    }
+
+}
+
+/*for mobiles (SIDEBAR)*/
+@media (max-width:720px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 16px;
+    }
+
+}
+
+@media(max-width: 720px) {
+
+    /*for mobiles (orders)*/
+    #order-body {
+
+        font-size: 10px;
+    }
+}
